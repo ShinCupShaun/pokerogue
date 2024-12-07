@@ -18,9 +18,9 @@ func _ready():
 	
 	print("Steam is running.")
 	
-	var id = Steam.getSteamID()
-	var name = Steam.getFriendPersonaName(id)
-	print("Username: %s" % name)
+	var steam_id = Steam.getSteamID()
+	var steam_name = Steam.getFriendPersonaName(steam_id)
+	print("Username: %s" % steam_name)
 
 
 func _process(delta):
